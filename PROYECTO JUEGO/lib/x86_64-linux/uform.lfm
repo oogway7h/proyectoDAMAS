@@ -1,0 +1,29 @@
+object Form1: TForm1
+  Left = 487
+  Height = 401
+  Top = 161
+  Width = 393
+  Caption = 'DAMAS'
+  ClientHeight = 401
+  ClientWidth = 393
+  Color = clActiveCaption
+  DoubleBuffered = True
+  KeyPreview = True
+  OnCreate = FormCreate
+  OnKeyDown = FormKeyDown
+  OnMouseDown = FormMouseDown
+  OnPaint = FormPaint
+  ParentDoubleBuffered = False
+  Position = poScreenCenter
+  LCLVersion = '2.2.6.0'
+  object jugar: TButton
+    Left = 128
+    Height = 48
+    Top = 176
+    Width = 115
+    Caption = 'JUGAR'
+    Color = clHighlight
+    OnClick = jugarClick
+    TabOrder = 0
+  end
+end
